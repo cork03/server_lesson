@@ -10,7 +10,5 @@ Linuxプラクティス
 - cp
 - mv
 - rm
-- >
-- >>
 - cat
 
