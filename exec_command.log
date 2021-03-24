@@ -1,0 +1,300 @@
+   85  echo '# サーバーっレ��レッスン' > READEME.MD
+   86  LS
+   87  ls
+   88  mv READEME.MD READE.md
+   89  ls
+   90  mv READE.md READEME.md
+   91  ls
+   92  echo 'Linuxプラク�' >> READEME.md 
+   93  echo '-----------------' >> README.md
+   94  ls
+   95  rm READEDE.md
+   96  ls
+   97  rm README.md
+   98  rm READEME.md
+   99  ls
+  100  echo '# サーバレッスン' > README.md
+  101  echo 'Linuxプラクティス' >> README.md
+  102  echo '-----------------' >> README.md
+  103  cat README.md 
+  104  git add .
+  105  git commit -m 'learned > & >>'
+  106  git branch
+  107  cd
+  108  cd server_lesson/
+  109  vi README.md 
+  110  cd
+  111  ls
+  112  cd server_lesson/
+  113  ls
+  114  ls linux_practice2
+  115  cd linux_practice1
+  116  ls
+  117  ls public/
+  118  ls tmmp
+  119  ls tmp
+  120  c
+  121  cd
+  122  git add .
+  123  cd server_lesson/
+  124  git branch
+  125  git add .
+  126  git commit -m 'vi fix'
+  127  git remote add origin https://github.com/cork03/server_lesson.git
+  128  git remote -v
+  129  git push -u origin master
+  130  ls
+  131  cd linux_practice
+  132  cd linux_practice2
+  133  mkdir documents trash
+  134  ls
+  135  cd documents/
+  136  touch gizumo{01..50}.md
+  137  ls
+  138  mv gizumo{20..29}.md ../trash/
+  139  ls
+  140  cd ../trash/
+  141  ls
+  142  cd ..
+  143  touch .gitignore
+  144  ls
+  145  ls -a
+  146  vi .gitignore 
+  147  echo history 300 > exec_command.log
+  148  ls
+  149  vi exec_command.log 
+  150  git status
+  151  git diff
+  152  git add .
+  153  git diff
+  154  cd ..
+  155  git diff
+  156  git diff --cached
+  157  git status
+  158  cd linux_practice2
+  159  ls
+  160  vi .gitignore 
+  161  git status
+  162  git reset ..
+  163  git status
+  164  cd ..
+  165  git status
+  166  git add .
+  167  git status
+  168  cd linux_practice2
+  169  ls
+  170  ls -a
+  171  vi .gitignore 
+  172  git status
+  173  git add .
+  174  git status
+  175  git reset ..
+  176  git add .
+  177  git status
+  178  vim .gitignore 
+  179  vi .gitignore 
+  180  git reset ..
+  181  git add .
+  182  git status
+  183  vi .gitignore 
+  184  git reset ..
+  185  git add .
+  186  git status
+  187  git reset .
+  188  git status
+  189  git add .
+  190  git status
+  191  vi .gitignore 
+  192  git reset .
+  193  git status
+  194  git add .
+  195  git status
+  196  vi .gitignore 
+  197  git status
+  198  git reset .
+  199  git status
+  200  git add .
+  201  git status
+  202  vi .gitignore 
+  203  git status
+  204  git add .
+  205  git status
+  206  vi .gitignore 
+  207  git status
+  208  git reset .
+  209  git add .
+  210  git status
+  211  git push
+  212  cd ..
+  213  git add .
+  214  git commit -m 'first_lesson'
+  215  git push
+  216  ls
+  217  cd linux_practice2
+  218  ls
+  219  rm exec_command.log 
+  220  ls
+  221  history 300 > exec_command.log
+  222  ls
+  223  vi exec_command.log 
+  224  git add .
+  225  cd ..
+  226  git add .
+  227  git commit -m 'fix exec_commnad.log'
+  228  git push
+  229  ls
+  230  cd linux_practice2
+  231   ls
+  232  cd trach
+  233  cd trash
+  234  ls
+  235  cd ..
+  236  ls
+  237  cd documents/
+  238  ls
+  239  mv gizumo{30..40}.md ../trash
+  240  ls
+  241  cd ..
+  242  ls
+  243  cd trash
+  244  ls
+  245  cd ../../
+  246  rm exec_command.log 
+  247  ls
+  248  cd linux_practice
+  249  cd linux_practice2
+  250  ls
+  251  rm exec_command.log 
+  252  history 300 > exec_command.log
+  253  vi exec_command.log 
+  254  git add .
+  255  cd ../
+  256  git add .
+  257  ls
+  258  cd linux_practice
+  259  ;s
+  260  ls
+  261  cd linux_practice2
+  262  ls
+  263  cd trach
+  264  ls
+  265  cd trash
+  266  ls
+  267  cd ..
+  268  cd documents/
+  269  ls
+  270  cd ../../
+  271  gat add .
+  272  git add .
+  273  git status
+  274  git reset .
+  275  ls
+  276  cd linux_practice2
+  277  ls
+  278  cd documents/
+  279  ls
+  280  cd ../../
+  281  git add .
+  282  git commit -m 'mv 30-40'
+  283  git push
+  284  cd ../
+  285  ls
+  286  rm server_lesson
+  287  rm -r server_lesson
+  288  y
+  289  ls
+  290  mkdir server_lesson && cd server_lesson
+  291  git init
+  292  touch first.txt
+  293  ls
+  294  cd ..
+  295  mkdir server_lesson/linux_practice/public
+  296  mkdir -p server_lesson/linux_practice/public
+  297  ls server_lesson server_lesson/linux_practice
+  298  touch server_lesson/linux_practice/public/index.php
+  299  ls server_lesson/linux_practice/public
+  300  cd /
+  301  ls
+  302  cd
+  303  cd /home/vagrant/server_lesson/ && ls
+  304  cd linux_practice/public/
+  305  cp index.php index_bk.php
+  306  ls
+  307  cd ../
+  308  cp -r public tmp
+  309  ls ./ public tmp
+  310  cd
+  311  mv server_lesson/linux_practice server_lesson/linux_practice1
+  312  mkdir linux_practice2 linux_practice3
+  313  mv ./linux_practice2 ./server_lesson
+  314  cd /home/vagrant/server_lesson/linux_practice1/tmp/
+  315  rm *_bk.php
+  316  ls
+  317  cd
+  318  rm server_lesson/first.txt
+  319  rm -r linux_practice3
+  320   ls server_lesson
+  321  cd server_lesson/
+  322  echo '# サーバレッスン' > README.md
+  323  echo 'Linuxプラクティス' >> README.md
+  324  echo '-----------------' >> README.md
+  325  cat README.md
+  326  cd
+  327  ls
+  328  cd server_lesson/
+  329  ls
+  330  cd linux_practice1
+  331  ls
+  332  ls public/t
+  333  ls public/tmp
+  334  ls
+  335  ls public/
+  336  ls tmp/
+  337  cd //
+  338  ;s//_
+  339  cd
+  340  cd server_lesson/
+  341  ls
+  342  vi README.md 
+  343  git add .
+  344  git commit -m 'lesson1'
+  345  git remote add origin https://github.com/cork03/server_lesson.git
+  346  git push -u origin master
+  347  ls
+  348  vi README.md 
+  349  git add .
+  350  git commit -m 'fix reademe'
+  351  git push
+  352  vi README.md 
+  353  git ad .
+  354  git add .
+  355  git commit -m 'fix reademe'
+  356  git add .
+  357  git commit -m 'fix'
+  358  git push
+  359  ls
+  360  cd linux_practice2
+  361  mkdir documents
+  362  cd documents/
+  363  touch gizumo{01..50}.md
+  364  ls
+  365  cd ..
+  366  mkdir trash
+  367  cd documents/
+  368  mv gizumo{20..40}.md ../trash/
+  369  ls
+  370  cd ../trash/
+  371  ls
+  372  cd ../../
+  373  touch .gitignore
+  374  vi .git
+  375  ls
+  376  cd server_lesson/
+  377  ls
+  378  ls -a
+  379  ls .git
+  380  vi .gitignore 
+  381  git status
+  382  git add .
+  383  git status
+  384  history 300 > exec_command.log
